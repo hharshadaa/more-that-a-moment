@@ -1,0 +1,84 @@
+body {
+  background-color: #efdec2;
+  font-family: 'Comic Neue', cursive;
+  border: 3px solid black;
+	text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #C86BFA; /* feel free to change this */
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover{
+  background-color: #FFF170 ; /* feel free to change this */
+  padding: 10px 10px 10px 10px;
+  color: black; /* feel free to change this */
+}
+li {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.factsHeader {
+  text-align: center;
+}
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #d992d3;
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.genFact {
+  background: #d992d3;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: peachpuff;
+}
+
+.facts {
+  text-align: center;
+	border-radius: 10px;
+	border-style: none;
+	padding: 15px;
+	margin-top: 30px;
+	
+}
+button {
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: peachpuff;
+	
+}
+button:hover{
+  background-color: lightyellow;
+}
+
