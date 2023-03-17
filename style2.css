@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
+body {
+  border: 3px solid black; 
+  background-color: #efdec2;  /*ff37d1*/
+  font-family: 'Comic Neue', cursive;
+}
+
+.header {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: #C86BFA;      
+  margin-bottom: 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+p {
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+.img1 {
+  border: 8px solid #FBE300; 
+}
+.img2 {
+  border: 8px solid #C86BFA;  
+}
+.img3 {
+  border: 8px solid #FBE300;  
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+/* CBC3E3 7e14b8*/
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color:  #C86BFA; /* feel free to change this */  /*dda1d8*/
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover{
+  background-color: #FFF170 ; /* feel free to change this */
+  padding: 10px 10px 10px 10px;
+  color: black; /* feel free to change this */
+}
+
+li {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
