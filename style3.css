@@ -1,0 +1,63 @@
+body{
+  border: 3px solid black;
+  background-color: #efdec2;
+  font-family: 'Comic Neue', cursive;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #c86bfa; /* feel free to change this */
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover{
+  background-color: #FFF170 ; /* feel free to change this */
+  padding: 10px 10px 10px 10px;
+  color: black; /* feel free to change this */
+}
+
+li {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+h1{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 65px;
+  text-align: center;
+  color: #c86bfa;
+}
+
+.descrip{
+  font-size: 20px;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-bottom: 20px;
+}
+.listItem1{
+  background-color: violet;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid white;
+  text-decoration: none;
+  color: black;
+}
+.listItem2{
+  background-color: lightyellow;
+  padding: 10px 10px 10px 10px;
+   border: 2px solid white;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul a {
+  color: white;
+}
