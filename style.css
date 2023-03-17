@@ -1,0 +1,123 @@
+body {
+  border: 3px solid black;
+  background-color: #efdec2;
+  font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: #C86BFA;
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: "Noto Sans", sans-serif; /*i didnt know if this was supposed to be the other font*/
+  margin-top: 0px;
+  font-size: 30px;
+  text-align: center;
+  color: #f9f69a;
+  font-weight: 1200;
+  -webkit-text-stroke: 0.5px black;
+}
+p {
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+#statement{
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+/*nav bar*/
+/*ul.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  background-color: #dda1d8; 
+	border-bottom: 3px solid black;
+  color: white;
+  padding: 10px;
+  gap: 5px;
+}
+
+li.nav-item {
+  display: inline;       
+  float: right;           
+  padding: 5px;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: black;
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a:hover{ 
+  background-color: lightgoldenrodyellow; 
+  color: black; /* feel free to change this */
+
+li {
+  display: block;
+  float: left;
+  margin: 10px;
+} 
+
+.video{
+   display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+iframe{
+  border: 2px solid black;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #C86BFA; /* feel free to change this */
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover{
+  background-color: lightyellow ; /* feel free to change this */
+  padding: 10px 10px 10px 10px;
+  color: black; /* feel free to change this */
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #C86BFA; /* feel free to change this */
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+nav a:hover{
+  background-color: #FFF170 ; /* feel free to change this */
+  padding: 10px 10px 10px 10px;
+  color: black; /* feel free to change this */
+}
+
+li {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
